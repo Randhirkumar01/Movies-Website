@@ -2,7 +2,8 @@ import axios from "axios";
 
 const Instance = axios.create({
   // https://thingproxy.freeboard.io/fetch/https://api.themoviedb.org/3/trending/all/day
-  baseURL: "https://thingproxy.freeboard.io/fetch/https://api.themoviedb.org/3",
+  // baseURL: "https://thingproxy.freeboard.io/fetch/https://api.themoviedb.org/3",
+  baseURL: "https://api.themoviedb.org/3",
   headers: {
     accept: "application/json",
     Authorization:
